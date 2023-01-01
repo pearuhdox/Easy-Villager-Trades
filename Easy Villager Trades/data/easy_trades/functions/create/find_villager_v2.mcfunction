@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^2 as @e[type=villager,limit=1,sort=nearest,distance=..3] at @s run function easy_trades:create/delete_trade

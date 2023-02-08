@@ -21,7 +21,7 @@ data modify storage easy_trades:template start.buy set from storage easy_trades:
 data modify storage easy_trades:template start.sell set from storage easy_trades:template hopper.tag.BlockEntityTag.Items[{Slot:2b}]
 
 #Buy B
-data modify storage easy_trades:template start.buy set from storage easy_trades:template hopper.tag.BlockEntityTag.Items[{Slot:1b}]
+data modify storage easy_trades:template start.buyB set from storage easy_trades:template hopper.tag.BlockEntityTag.Items[{Slot:1b}]
 execute unless data storage easy_trades:template hopper.tag.BlockEntityTag.Items[{Slot:1b}] run data modify storage easy_trades:template start.buyB set value {}
 
 #Apply Trade to Villager
